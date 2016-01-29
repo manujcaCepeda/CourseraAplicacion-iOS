@@ -14,10 +14,10 @@ enum Velocidades : Int{
 
 
 class Auto {
-    var velocidad = Velocidades(velocidadInicial: Velocidades.Apagado)
+    var velocidad : Velocidades
     
     init(){
-        velocidad = Velocidades.Apagado
+        velocidad =  Velocidades(velocidadInicial: Velocidades.Apagado)
     }
     
     func cambioDeVelocidad() ->(actual:Int, velocidadenCadena:String){
@@ -39,7 +39,7 @@ class Auto {
             mensaje = "Velocidad alta"
             resultado = (velocidad.rawValue, mensaje)
             velocidad = Velocidades.VelocidadMedia
-        }        
+        }
         return resultado
     }
     
