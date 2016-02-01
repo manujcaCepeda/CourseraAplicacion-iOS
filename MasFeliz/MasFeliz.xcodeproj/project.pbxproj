@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0498B18C1C5B34A100684BE3 /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B18B1C5B34A100684BE3 /* ColoresStruct.swift */; };
+		04EC0A1B1C5B239E006B79DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC0A1A1C5B239E006B79DD /* AppDelegate.swift */; };
+		04EC0A1D1C5B239E006B79DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC0A1C1C5B239E006B79DD /* ViewController.swift */; };
+		04EC0A201C5B239F006B79DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EC0A1E1C5B239F006B79DD /* Main.storyboard */; };
+		04EC0A221C5B239F006B79DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EC0A211C5B239F006B79DD /* Assets.xcassets */; };
+		04EC0A251C5B239F006B79DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EC0A231C5B239F006B79DD /* LaunchScreen.storyboard */; };
+		04EC0A301C5B239F006B79DD /* MasFelizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC0A2F1C5B239F006B79DD /* MasFelizTests.swift */; };
+		04EC0A3B1C5B239F006B79DD /* MasFelizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC0A3A1C5B239F006B79DD /* MasFelizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EC0A2C1C5B239F006B79DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EC0A0F1C5B239E006B79DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EC0A161C5B239E006B79DD;
+			remoteInfo = MasFeliz;
+		};
+		04EC0A371C5B239F006B79DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EC0A0F1C5B239E006B79DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EC0A161C5B239E006B79DD;
+			remoteInfo = MasFeliz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0498B18B1C5B34A100684BE3 /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
+		04EC0A171C5B239E006B79DD /* MasFeliz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasFeliz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EC0A1A1C5B239E006B79DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EC0A1C1C5B239E006B79DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EC0A1F1C5B239F006B79DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EC0A211C5B239F006B79DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EC0A241C5B239F006B79DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04EC0A261C5B239F006B79DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EC0A2B1C5B239F006B79DD /* MasFelizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasFelizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EC0A2F1C5B239F006B79DD /* MasFelizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasFelizTests.swift; sourceTree = "<group>"; };
+		04EC0A311C5B239F006B79DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EC0A361C5B239F006B79DD /* MasFelizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasFelizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EC0A3A1C5B239F006B79DD /* MasFelizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasFelizUITests.swift; sourceTree = "<group>"; };
+		04EC0A3C1C5B239F006B79DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EC0A141C5B239E006B79DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A281C5B239F006B79DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A331C5B239F006B79DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EC0A0E1C5B239E006B79DD = {
+			isa = PBXGroup;
+			children = (
+				0498B18B1C5B34A100684BE3 /* ColoresStruct.swift */,
+				04EC0A191C5B239E006B79DD /* MasFeliz */,
+				04EC0A2E1C5B239F006B79DD /* MasFelizTests */,
+				04EC0A391C5B239F006B79DD /* MasFelizUITests */,
+				04EC0A181C5B239E006B79DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EC0A181C5B239E006B79DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EC0A171C5B239E006B79DD /* MasFeliz.app */,
+				04EC0A2B1C5B239F006B79DD /* MasFelizTests.xctest */,
+				04EC0A361C5B239F006B79DD /* MasFelizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EC0A191C5B239E006B79DD /* MasFeliz */ = {
+			isa = PBXGroup;
+			children = (
+				04EC0A1A1C5B239E006B79DD /* AppDelegate.swift */,
+				04EC0A1C1C5B239E006B79DD /* ViewController.swift */,
+				04EC0A1E1C5B239F006B79DD /* Main.storyboard */,
+				04EC0A211C5B239F006B79DD /* Assets.xcassets */,
+				04EC0A231C5B239F006B79DD /* LaunchScreen.storyboard */,
+				04EC0A261C5B239F006B79DD /* Info.plist */,
+			);
+			path = MasFeliz;
+			sourceTree = "<group>";
+		};
+		04EC0A2E1C5B239F006B79DD /* MasFelizTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EC0A2F1C5B239F006B79DD /* MasFelizTests.swift */,
+				04EC0A311C5B239F006B79DD /* Info.plist */,
+			);
+			path = MasFelizTests;
+			sourceTree = "<group>";
+		};
+		04EC0A391C5B239F006B79DD /* MasFelizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04EC0A3A1C5B239F006B79DD /* MasFelizUITests.swift */,
+				04EC0A3C1C5B239F006B79DD /* Info.plist */,
+			);
+			path = MasFelizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EC0A161C5B239E006B79DD /* MasFeliz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EC0A3F1C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFeliz" */;
+			buildPhases = (
+				04EC0A131C5B239E006B79DD /* Sources */,
+				04EC0A141C5B239E006B79DD /* Frameworks */,
+				04EC0A151C5B239E006B79DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasFeliz;
+			productName = MasFeliz;
+			productReference = 04EC0A171C5B239E006B79DD /* MasFeliz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EC0A2A1C5B239F006B79DD /* MasFelizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EC0A421C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFelizTests" */;
+			buildPhases = (
+				04EC0A271C5B239F006B79DD /* Sources */,
+				04EC0A281C5B239F006B79DD /* Frameworks */,
+				04EC0A291C5B239F006B79DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EC0A2D1C5B239F006B79DD /* PBXTargetDependency */,
+			);
+			name = MasFelizTests;
+			productName = MasFelizTests;
+			productReference = 04EC0A2B1C5B239F006B79DD /* MasFelizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04EC0A351C5B239F006B79DD /* MasFelizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EC0A451C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFelizUITests" */;
+			buildPhases = (
+				04EC0A321C5B239F006B79DD /* Sources */,
+				04EC0A331C5B239F006B79DD /* Frameworks */,
+				04EC0A341C5B239F006B79DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EC0A381C5B239F006B79DD /* PBXTargetDependency */,
+			);
+			name = MasFelizUITests;
+			productName = MasFelizUITests;
+			productReference = 04EC0A361C5B239F006B79DD /* MasFelizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EC0A0F1C5B239E006B79DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = atomcorp;
+				TargetAttributes = {
+					04EC0A161C5B239E006B79DD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					04EC0A2A1C5B239F006B79DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04EC0A161C5B239E006B79DD;
+					};
+					04EC0A351C5B239F006B79DD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 04EC0A161C5B239E006B79DD;
+					};
+				};
+			};
+			buildConfigurationList = 04EC0A121C5B239E006B79DD /* Build configuration list for PBXProject "MasFeliz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EC0A0E1C5B239E006B79DD;
+			productRefGroup = 04EC0A181C5B239E006B79DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EC0A161C5B239E006B79DD /* MasFeliz */,
+				04EC0A2A1C5B239F006B79DD /* MasFelizTests */,
+				04EC0A351C5B239F006B79DD /* MasFelizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EC0A151C5B239E006B79DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EC0A251C5B239F006B79DD /* LaunchScreen.storyboard in Resources */,
+				04EC0A221C5B239F006B79DD /* Assets.xcassets in Resources */,
+				04EC0A201C5B239F006B79DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A291C5B239F006B79DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A341C5B239F006B79DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EC0A131C5B239E006B79DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EC0A1D1C5B239E006B79DD /* ViewController.swift in Sources */,
+				0498B18C1C5B34A100684BE3 /* ColoresStruct.swift in Sources */,
+				04EC0A1B1C5B239E006B79DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A271C5B239F006B79DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EC0A301C5B239F006B79DD /* MasFelizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EC0A321C5B239F006B79DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EC0A3B1C5B239F006B79DD /* MasFelizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EC0A2D1C5B239F006B79DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EC0A161C5B239E006B79DD /* MasFeliz */;
+			targetProxy = 04EC0A2C1C5B239F006B79DD /* PBXContainerItemProxy */;
+		};
+		04EC0A381C5B239F006B79DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EC0A161C5B239E006B79DD /* MasFeliz */;
+			targetProxy = 04EC0A371C5B239F006B79DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EC0A1E1C5B239F006B79DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EC0A1F1C5B239F006B79DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EC0A231C5B239F006B79DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EC0A241C5B239F006B79DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EC0A3D1C5B239F006B79DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EC0A3E1C5B239F006B79DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EC0A401C5B239F006B79DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasFeliz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFeliz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04EC0A411C5B239F006B79DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MasFeliz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFeliz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04EC0A431C5B239F006B79DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasFelizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFelizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasFeliz.app/MasFeliz";
+			};
+			name = Debug;
+		};
+		04EC0A441C5B239F006B79DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MasFelizTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFelizTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasFeliz.app/MasFeliz";
+			};
+			name = Release;
+		};
+		04EC0A461C5B239F006B79DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasFelizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFelizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasFeliz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04EC0A471C5B239F006B79DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MasFelizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atomcorp.MasFelizUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MasFeliz;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EC0A121C5B239E006B79DD /* Build configuration list for PBXProject "MasFeliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EC0A3D1C5B239F006B79DD /* Debug */,
+				04EC0A3E1C5B239F006B79DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EC0A3F1C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFeliz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EC0A401C5B239F006B79DD /* Debug */,
+				04EC0A411C5B239F006B79DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EC0A421C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFelizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EC0A431C5B239F006B79DD /* Debug */,
+				04EC0A441C5B239F006B79DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EC0A451C5B239F006B79DD /* Build configuration list for PBXNativeTarget "MasFelizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EC0A461C5B239F006B79DD /* Debug */,
+				04EC0A471C5B239F006B79DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EC0A0F1C5B239E006B79DD /* Project object */;
+}
