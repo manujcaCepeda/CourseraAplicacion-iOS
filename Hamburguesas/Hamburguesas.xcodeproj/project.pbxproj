@@ -14,6 +14,7 @@
 		0498B1A41C60231800684BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0498B1A21C60231800684BE3 /* LaunchScreen.storyboard */; };
 		0498B1AF1C60231900684BE3 /* HamburguesasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B1AE1C60231900684BE3 /* HamburguesasTests.swift */; };
 		0498B1BA1C60231900684BE3 /* HamburguesasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B1B91C60231900684BE3 /* HamburguesasUITests.swift */; };
+		0498B1C81C60240100684BE3 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498B1C71C60240100684BE3 /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0498B1B51C60231900684BE3 /* HamburguesasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0498B1B91C60231900684BE3 /* HamburguesasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesasUITests.swift; sourceTree = "<group>"; };
 		0498B1BB1C60231900684BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0498B1C71C60240100684BE3 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0498B18D1C60231800684BE3 = {
 			isa = PBXGroup;
 			children = (
+				0498B1C71C60240100684BE3 /* Datos.swift */,
 				0498B1981C60231800684BE3 /* Hamburguesas */,
 				0498B1AD1C60231900684BE3 /* HamburguesasTests */,
 				0498B1B81C60231900684BE3 /* HamburguesasUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				0498B19C1C60231800684BE3 /* ViewController.swift in Sources */,
 				0498B19A1C60231800684BE3 /* AppDelegate.swift in Sources */,
+				0498B1C81C60240100684BE3 /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
